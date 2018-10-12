@@ -1,0 +1,109 @@
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    color: white; 
+    position: relative;
+    background-color: #666666;
+    border-top: 20px solid #4aaaa5;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%
+}
+
+.name {
+    background-color:  #4aaaa5;
+    border: 2px solid #4aaaa5;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding: 25px;
+    margin-left: 461px;
+}
+
+#nav-direction {
+    display: flex;
+    flex-direction: row;
+    margin-right: 461px;
+}
+
+.navigation {
+    display: flex;
+    border-bottom: 2px solid #cccccc;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 980px) {
+    html, body { 
+       align-content: center;
+       font-size: 24px;
+}
+    .navigation {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        height: auto;
+    }
+    
+    .container {
+
+        width: 100%;
+        height: auto;
+
+}
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        font-size: 64px;
+    }
+    
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    .navigation {
+        position: static;
+    }
+}
